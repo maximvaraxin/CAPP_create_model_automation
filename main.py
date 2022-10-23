@@ -14,8 +14,6 @@ if __name__ == "__main__":
 
         if activeDocType == 4:
             api5 = ConnectApi5()
-            IKompasDocument3D = api7.connect7.IKompasDocument3D(activeDoc)
-            IKompasDocument2D = api7.connect7.IKompasDocument2D(activeDoc)
 
             if param_a >= param_b:
                 api5.createModelAutomation(activeDoc, param_a, param_b, param_c)
